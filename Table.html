@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+
+    <h1>Time Tables</h1>
+
+
+    <table style="background-color:lightgray;" border="5" cellspacing="10" cellpadding="10">
+        <thead>
+            <tr>
+                <th>Days/Periods</th>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th>4</th>
+				<th>5</th>
+				<th>6</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Mon</td>
+                <td>Science</td>
+                <td>Maths</td>
+                <td>Games</td>
+				<td rowspan="5">BREAK</td>
+                <td rowspan="2">Games</td>
+                <td rowspan="2">Sanskrit</td>
+            </tr>
+            <tr>
+                <td>Tue</td>
+                <td>DBMS</td>
+                <td>English</td>
+                <td>Science</td>
+                <!-- <td>Games</td> -->
+            </tr>
+            <tr>
+                <td>Wed</td>
+                <td>AWT</td>
+                <td>Sanskrit</td>
+                <td>Maths</td>
+                <td>DBMS</td>
+				<td>CP</td>
+            </tr>
+            <tr>
+                <td>Thu</td>
+                <td>Games</td>
+                <td>Sanskrit</td>
+                <td >Maths</td>
+				<td colspan="2">Half day</td>
+                <!-- <td>Half Day</td> -->
+            </tr>
+			<tr>
+                <td>Fri</td>
+                <td>DBMS</td>
+                <td>AWT</td>
+                <td>Maths</td>
+				<td colspan="2">CP</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="7">Holidays</th>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>
